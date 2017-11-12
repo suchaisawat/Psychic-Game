@@ -1,5 +1,5 @@
 ////Welcome page. to make sure the js file is linked
-alert("Hello. Welcome to Psyhic game");
+alert("Hello. Welcome to Psychic game");
 // Creates an array that lists out all of the alphabet optiom
 var computerChoices = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 // Creating variables to hold the number of wins, losses, and # of guess left 
