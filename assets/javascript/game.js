@@ -52,11 +52,12 @@ document.onkeyup = function (event) {
     // replace the element tag with different html print out
     var html =
         "<p>You chose: " + userPick + "</p>" +
-         "<p>Letter you chose so far: " + allUserGuess + "</p>" +
+      
         "<p>The computer chose: " + computerRandom + "</p>" +
         "<p>You wins: " + userWins + "</p>" +
         "<p>You losses: " + userLosses + "</p>" +
-        "<p>Your guess left: " + guessLeft + "</p>";
+        "<p>Your guess left: " + guessLeft + "</p>" +
+       "<p>Letter you chose so far: " + allUserGuess + "</p>";
     // Set the inner HTML contents of the #game div to our html string
     document.querySelector("#game").innerHTML = html;
 };
